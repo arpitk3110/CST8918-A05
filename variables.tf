@@ -15,3 +15,4 @@ variable "admin_username" {
   type        = string
   default     = "azureadmin"
 }
+
