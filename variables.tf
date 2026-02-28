@@ -7,7 +7,7 @@ variable "labelPrefix" {
 variable "region" {
   description = "Azure region"
   type        = string
-  default     = "eastus"
+  default     = "eastus2"
 }
 
 variable "admin_username" {
