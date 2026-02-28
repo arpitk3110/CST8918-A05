@@ -114,6 +114,8 @@ data "cloudinit_config" "init" {
   }
 }
 
+# Ubuntu Linux VM for Apache web server
+
 resource "azurerm_linux_virtual_machine" "vm" {
   name                = "${var.labelPrefix}-A05-VM"
   location            = azurerm_resource_group.rg.location
